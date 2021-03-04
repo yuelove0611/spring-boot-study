@@ -1,4 +1,4 @@
-package com.example.boot.study.entity;
+package com.example.boot.study.controller.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,14 +8,13 @@ import lombok.NoArgsConstructor;
 /**
  * @ author younger
  * @data 2021/3/5
- * @description BookReader
+ * @description Param
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class BookReader {
-    private  String name;
-    private  Integer age;
-
+public class Param {
+    private Integer id;
+    private  String title;
 }
