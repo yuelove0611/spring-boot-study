@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "family.family-name",
+      "type": "java.lang.String",
+      "description": "Description for family.family-name."
+  }
+] }

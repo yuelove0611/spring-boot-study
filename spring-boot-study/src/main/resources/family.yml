@@ -1,0 +1,16 @@
+family:
+  family-name: "happy"
+  father:
+    name: yxh
+    age: 50
+  mother:
+    name: tony
+    alias: (lovely,alice)
+  child:
+    name: jack
+    age: 6
+    friends:
+      - hobby: football
+        gender: male
+      - hobby: sing
+        gender: female

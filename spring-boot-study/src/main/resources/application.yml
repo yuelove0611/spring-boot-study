@@ -1,0 +1,28 @@
+#上传文件大小配置，设置为-1无限制，但是不建议
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 300MB
+      max-request-size: 300MB
+family:
+  family-name: "happy"
+  father:
+    name: tom
+    age: 25
+  mother:
+    name: jack
+    age: 29
+  child:
+    name: jack
+    age: 6
+    friends:
+      - hobby: football
+        gender: male
+        age: 20
+      - hobby: sing
+        gender: female
+        age: 19
+

@@ -32,5 +32,18 @@ public class AjaxResponse {
         ajaxResponse.setData(obj);
         return ajaxResponse;
     }
+    public static AjaxResponse success(Object obj,String message){
+        AjaxResponse ajaxResponse = new AjaxResponse();
+        ajaxResponse.setCode(200);
+        ajaxResponse.setMessage(message);
+        ajaxResponse.setData(obj);
+        return ajaxResponse;
+    }
+    public static AjaxResponse failure(String message){
+        AjaxResponse ajaxResponse = new AjaxResponse();
+        ajaxResponse.setCode(500);
+        ajaxResponse.setMessage(message);
+        return ajaxResponse;
+    }
 
 }
